@@ -19,7 +19,8 @@ const routes: Routes = [
   { path: 'nuevo-contacto', loadChildren: './nuevo-contacto/nuevo-contacto.module#NuevoContactoPageModule' },
   { path: 'libreta-contactos', loadChildren: './libreta-contactos/libreta-contactos.module#LibretaContactosPageModule' },
   { path: 'nuevo-evento', loadChildren: './nuevo-evento/nuevo-evento.module#NuevoEventoPageModule' },
-  { path: 'acerca-de', loadChildren: './acerca-de/acerca-de.module#AcercaDePageModule' }
+  { path: 'acerca-de', loadChildren: './acerca-de/acerca-de.module#AcercaDePageModule' },
+  { path: 'nuevo-evento', loadChildren: './nuevo-evento/nuevo-evento.module#NuevoEventoPageModule' }
 ];
 
 @NgModule({
